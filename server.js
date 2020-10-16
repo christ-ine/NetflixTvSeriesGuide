@@ -4,8 +4,6 @@ const handlebars = require('handlebars')
 const { allowInsecurePrototypeAccess } = require('@handlebars/allow-prototype-access')
 const exphbs = require('express-handlebars');
 
-
-
 require('dotenv').config();
 
 const app = express();
@@ -27,6 +25,7 @@ app.set('view engine', 'handlebars');
 
 // Routes
 // =============================================================
+
 require('./controllers/view-routes')(app);
 require('./controllers/api-routes')(app);
 

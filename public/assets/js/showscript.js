@@ -192,28 +192,6 @@ $(function () {
     
 
     })
-  
-
-  })
-
-  // $("#cheerful").on("click", function(event){
-  //     event.preventDefault();
-
-  //     $.ajax("/api/shows/mood/cheerful" {
-  //         type:
-  //         data: 
-  //     })
-
-  //   var expect = require('chai').expect
-  // , mood = 'cheerful'
-  // , Show = { dataValues: [ 'id', 'title', 'genre', 'seasons', 'mood', 'completed', 'length' ] };
-  //   
-  //    expect( mood).to.be.a('string');
-  //    expect( mood).to.equal('cheerful');
-  // 
-  //    expect(Show).to.have.property('dataValues').with.lengthOf(7);
-  //    expect(Show.dataValues.genre).to.equal('cheerful');
-
 
 
   });
@@ -316,3 +294,4 @@ $(".see-all").on("click", function(event){
   
 
 
+});
